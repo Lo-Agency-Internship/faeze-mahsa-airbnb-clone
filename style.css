@@ -73,13 +73,13 @@ body{
     font-family:circular-light;
     font-size: 12px;
     line-height: 18px;
-    border:1px solid red;
+    /*border:1px solid red;*/
 }
 .globe {
     display:flex;
     justify-content:space-between;
     align-items: center;
-    border:2px solid yellow;
+    /*border:2px solid yellow;*/
     width:9vw;
     
 }
@@ -96,7 +96,7 @@ body{
     border-radius: 17px;
     align-items: center;
     justify-content:space-around;
-    border:1px solid red;
+    /*border:1px solid red;*/
 }
 .custom-icon a {
     color:gray;
@@ -150,4 +150,132 @@ body{
 
   }
   /* end of navbar css*/
+  /*search-bar css*/
+  
+.search-bar {
+    width:50%;
+    background:white;
+    border-radius:30px;
+    /*border:2px solid red;*/
+    margin:auto;
+    padding-bottom:1px;
+    
+}
+#pixel-p{
+    margin-right:8px;
+    margin-left: 20px;
+    width:28%;
+    
+
+}
+form {
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+input{
+    background: transparent;
+    border:0;
+    display: block;
+}
+input::placeholder {
+
+    font-size:11px;;
+  }
+#lo{
+    flex: 1;
+    padding-left: 7px;
+}
+.search-col{
+    /*border:2px solid blue;*/
+    padding:7px;
+    width:15%;
+    margin-right: 14px;
+    margin-bottom: 2px;
+
+}
+#pixel-2{
+    margin-right: 0;
+    margin-left: 0;
+    padding-left:12px;
+}
+#pixel-3{
+    padding-left:10px;
+
+}
+#pixel-4{
+    padding-left: 14px;
+    margin-left: -40px;
+
+    
+}
+button{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    background:#ff385c;
+
+    border:2px solid whitesmoke;
+    margin:7px;
+    border:0;
+
+}
+button i {
+    font-size: 12px;
+    color:white;
+}
+label {
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 600;
+    font-family: circular-light;
+}
+/* psudo element */
+#lo{
+    position:relative;
+    
+}
+
+#lo::after{
+      content:"";
+      background:lightgrey;
+      width:1px;
+      height:25px;
+      position:absolute;
+      right:-275%;
+      border-radius: 2px;
+      bottom:-12px;
+
+}
+#pes2{
+    position: relative;
+}
+
+#pes2::after{
+    content:"";
+    background:lightgrey;
+    width:1px;
+    height:25px;
+    position:absolute;
+    right:-190%;
+    border-radius: 2px;
+    bottom:-12px;
+
+
+}
+#pes3{
+    position: relative;
+}
+
+#pes3::after{
+    content:"";
+    background:lightgrey;
+    width:1px;
+    height:25px;
+    position:absolute;
+    right:-140%;
+    border-radius: 2px;
+    bottom:-12px;
+}
+  
   
