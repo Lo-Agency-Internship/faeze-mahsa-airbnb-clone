@@ -1,0 +1,152 @@
+@font-face {
+    font-family: circular-light;
+    src: url(fonts/Circular-light.ttf);
+}
+@font-face {
+    font-family: circular-bold;
+    src: url(fonts/Circular-bold.ttf);
+}
+@font-face {
+    font-family: circular-medium;
+    src: url(fonts/Circular-medium.ttf);
+
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    width:100vw;
+}
+.header {
+    background-color: black;
+    width:100vw;
+    /*height:200px;*/
+    /*border:1px solid blue;*/
+}
+.logo {
+    width:80px;
+    /*border:1px solid red;*/
+    margin-top:2px;
+    
+
+}
+.nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /*border:5px solid green;*/
+    width:calc(100%-160px);
+    height:11vh;
+    margin:0 80px 0 80px;
+    color:white;
+}
+.mid-nav {
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    /*border:1px solid red;*/
+    width:25vw;
+    margin-left:70px;
+
+}
+.mid-nav a{
+    text-decoration: none;
+    color:white;
+    font-family: circular-light;
+    font-size: 13px;
+    line-height: 20px;
+}
+.right-nav {
+    
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /*border:2px solid red;*/
+    gap:1rem;
+}
+.right-nav a {
+    color:white;
+    text-decoration: none;
+    font-family:circular-light;
+    font-size: 12px;
+    line-height: 18px;
+}
+.globe {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    /*border:2px solid yellow;*/
+    width:9vw;
+    
+}
+#glo{
+    font-size: 14px;
+    /*border:1px solid red;*/
+}
+.custom-icon {
+    display: flex;
+    background:white;
+    width:62px;
+    height:34px;
+    padding:3px;
+    border-radius: 17px;
+    align-items: center;
+    justify-content:space-around;
+    /*border:1px solid red;*/
+}
+.custom-icon a {
+    color:gray;
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    
+  }
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom:-8px;
+    background: #fff;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left:49%;
+    right: 49%;
+  }
+  
+
+  .under{
+      position:relative;
+  }
+  .under::after{
+      content:"";
+      background: white;
+      width:15px;
+      height:2px;
+      position:absolute;
+      left:45%;
+      bottom:-8px;
+      border-radius: 2px;
+    
+
+  }
+  /* end of navbar css*/
+  
