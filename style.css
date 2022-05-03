@@ -73,12 +73,13 @@ body{
     font-family:circular-light;
     font-size: 12px;
     line-height: 18px;
+    border:1px solid red;
 }
 .globe {
     display:flex;
     justify-content:space-between;
     align-items: center;
-    /*border:2px solid yellow;*/
+    border:2px solid yellow;
     width:9vw;
     
 }
@@ -95,7 +96,7 @@ body{
     border-radius: 17px;
     align-items: center;
     justify-content:space-around;
-    /*border:1px solid red;*/
+    border:1px solid red;
 }
 .custom-icon a {
     color:gray;
