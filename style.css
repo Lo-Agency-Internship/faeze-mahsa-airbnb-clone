@@ -65,16 +65,18 @@ body{
     justify-content: space-around;
     align-items: center;
     /*border:2px solid red;*/
-    gap:1rem;
+    /*gap:1rem;*/
 }
 .right-nav a {
     color:white;
     text-decoration: none;
     font-family:circular-light;
-    font-size: 12px;
+    font-size:11px;
     line-height: 18px;
     /*border:1px solid red;*/
 }
+
+
 .globe {
     display:flex;
     justify-content:space-between;
@@ -84,8 +86,9 @@ body{
     
 }
 #glo{
-    font-size: 14px;
+   /* font-size: 14px;*/
     /*border:1px solid red;*/
+    margin-right: 1rem;
 }
 .custom-icon {
     display: flex;
@@ -99,9 +102,12 @@ body{
     /*border:1px solid red;*/
 }
 .custom-icon a {
-    color:gray;
+    color: #717171;
+    padding-left: 6px;
 }
-
+#user{
+    margin-left:3px;
+}
 /* Underline From Center */
 .hvr-underline-from-center {
     display: inline-block;
@@ -277,5 +283,41 @@ label {
     border-radius: 2px;
     bottom:-12px;
 }
-  
+/*pink box */
+.pink-box{
+    display:flex;
+    width:calc(100% - 160px);
+    background:#ff385c;
+    height:52vh;
+    margin:0 80px 0 80px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top:65px;
+}
+.pink-text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*border:1px solid white;*/
+    font-size: 36px;
+    font-family: circular-bold;
+    color:white;
+    font-weight: 400;
+}
+.pink-text button{
+    width:5.5rem;
+    height:2rem;
+    background: transparent;
+    color:white;
+    border-radius: 7px;
+    color:white;
+    font-size: 12px;
+    font-family: circular-light;
+    border:1px solid white;
+    margin-top: 1rem;
+    padding:0.5rem;
+    font-weight: 400;
+}
   
