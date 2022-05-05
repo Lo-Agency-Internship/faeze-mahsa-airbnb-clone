@@ -406,7 +406,7 @@ input::placeholder {
 
 .picture-inspir{
     width:100%;
-    height:50vw;
+    height:38vw;
     background:white;
     margin-top:90px;
    /* border:3px solid black;*/
@@ -495,3 +495,103 @@ input::placeholder {
 #pinkish {
     background: #DE3151;
 }
+
+
+ /*   Discover Airbnb Experiences  */
+
+ .picture-container{
+ 
+    width:calc(100% - 160px);
+    height:50vw;
+    margin: 0 80px 0 80px;
+    font-family:circular-light;
+    position: relative;
+
+}
+.title {
+
+    justify-content:center;
+    font-size: 33px;
+    font-weight:600;
+    line-height:47px;
+    left:80px;
+    letter-spacing:-0.02em;
+}
+.flex-wrapper{
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100% ;
+    position: absolute;
+    gap:24px;
+
+}
+.flex-item {
+   
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    width:50%;
+    height: 70vh;
+    color:white;
+   border-radius:13px;
+   align-items:flex-start;
+   justify-content:space-around;
+
+}
+#left-picture{
+    background:url("images/experience1.jpg") no-repeat  left;
+    position: relative;
+    background-size:cover;
+    top: 48px;
+    width:591px;
+    height:591px;;
+}
+#right-picture{
+    background:url("images/experience2.jpg") no-repeat right;
+    position: relative;
+    background-size: cover;
+    top:48px;
+    width:591px;
+    height:591px;;
+}
+
+.flex-item button{
+
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-size: 18px;
+    line-height:20px;
+    border-radius:8px;
+    padding:8px 16px 8px 16px;
+    margin-top:16px;
+    cursor: pointer;
+  
+}
+.flex-item #left{
+
+    width: 140.11px;
+    height:48px ;
+   
+}
+.flex-item #right{
+    width: 192.2px;
+    height: 58px;
+
+}
+.flex-item p{
+    font-size:41px;
+    font-weight:600;
+    letter-spacing:-0.02em;
+    line-height:46px;
+    position:absolute;
+    white-space:pre-line;
+    top:60px;
+    left:60px;
+    width: 229.81px;
+    height:92px;
+    
+}
+
