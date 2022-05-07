@@ -394,9 +394,10 @@ input::placeholder {
     90deg,
     #6F019C 0%,
     #C6017E 135.12%
-  );*/
-  background-clip: text;
+  
+  background-clip: text;);*/
 }
+
 .two-colored{
     display: flex;
     width:100%;
