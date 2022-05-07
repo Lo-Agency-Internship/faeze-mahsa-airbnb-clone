@@ -198,7 +198,7 @@ input{
     margin-right: 14px;
     margin-bottom: 9px;
     margin-top:6px;
-    border:2px solid red;
+    /*border:2px solid red;*/
 
 }
 .search-col:hover{
@@ -393,8 +393,8 @@ input::placeholder {
     background: linear-gradient(
     90deg,
     #6F019C 0%,
-    #C6017E 135.12%*/
-  );
+    #C6017E 135.12%
+  );*/
   background-clip: text;
 }
 .two-colored{
