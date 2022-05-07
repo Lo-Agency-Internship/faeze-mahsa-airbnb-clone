@@ -19,7 +19,7 @@
 body{
     background: black;
     width:100vw;
-    background-image: linear-gradient(black 50%, white 50%);
+    background-image: linear-gradient(black 40%, white 40%);
 }
 .header {
     background-color: black;
@@ -198,7 +198,13 @@ input{
     margin-right: 14px;
     margin-bottom: 9px;
     margin-top:6px;
+    border:2px solid red;
 
+}
+.search-col:hover{
+    background-color: lightgray;
+    border-radius:30px;
+   
 }
 #pixel-2{
     margin-right: 0;
@@ -383,6 +389,13 @@ input::placeholder {
     border-radius:25px;
     color:#bc1a6e;
     font-weight:bold;
+   /* color: transparent;
+    background: linear-gradient(
+    90deg,
+    #6F019C 0%,
+    #C6017E 135.12%*/
+  );
+  background-clip: text;
 }
 .two-colored{
     display: flex;
