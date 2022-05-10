@@ -471,7 +471,7 @@ input::placeholder {
     display: flex;
     width: calc(100% - 160px);
     background: #ff385c;
-    height: 52vh;
+    height: 368px;
     margin: 0 80px 0 80px;
     border-radius: 15px;
     justify-content: center;
@@ -522,7 +522,7 @@ input::placeholder {
     background-repeat: no-repeat;
     background-size: cover;
     /*border:2px solid blue;*/
-    height:615px;
+    height: 615px;
     margin-top: 90px;
     margin-bottom: 45px;
     display: flex;
@@ -551,7 +551,7 @@ input::placeholder {
 
 .text-block button {
     width: 161px;
-    height: 59px;
+    height: 56px;
     /* width: 8rem;
     height: 3rem; */
     border: 1px solid #fff;
@@ -697,7 +697,6 @@ background-clip: text; */
 }
 
 
-
 /* -------------------------  Discover Airbnb Experiences---------------------------------  */
 
 #picture-container {
@@ -705,17 +704,16 @@ background-clip: text; */
     width: 1366px;
     max-width: 100%;
     height: auto;
-    padding-top:0;
+    padding-top: 0;
     gap: 24px;
 }
 
 #title {
-  
     font-size: 33px;
-    font-weight:500;
-    line-height:47px;
+    font-weight: 500;
+    line-height: 47px;
     letter-spacing: -0.02em;
-    line-height:37px;
+    line-height: 37px;
     padding: 0 50px 48px 37px;
     margin-bottom: -88px;
     margin-left: 40px;
@@ -732,12 +730,11 @@ background-clip: text; */
 .img-container {
     display: flex;
     gap: 24px;
-    height:100%;
+    height: 100%;
     background-position: center;
     background-size: cover;
     padding: 8rem;
     flex-direction: column;
- 
     padding-left: 150px;
     padding-right: 200px;
     border-radius: 13px;
@@ -765,19 +762,18 @@ background-clip: text; */
 }
 
 #left-picture {
-    background-image: url(images/experience1.jpg) ;
+    background-image: url(images/experience1.jpg);
     background-repeat: no-repeat;
     margin-left: 1px;
     margin-right: 13px;
     background-size: 591px 591px;
     width: max-content;
-  
 }
 
 #right-picture {
-    background-Image: url(images/experience2.jpg) ;
+    background-Image: url(images/experience2.jpg);
     background-repeat: no-repeat;
-    background-size:591px 591px;
+    background-size: 591px 591px;
     width: max-content;
     margin-right: -1px;
     margin-left: 12px;
@@ -790,13 +786,11 @@ background-clip: text; */
     background-position: left;
     border-radius: 8px;
     color: black;
-    max-width:fit-content;
-    
+    max-width: fit-content;
 }
 
 .picture-on:hover {
     background-color: #ebebeb;
-    
 }
 
 .picture-on>span {
@@ -806,7 +800,7 @@ background-clip: text; */
     letter-spacing: 0.5px;
     padding: 15px 20px 15px 20px;
     color: black;
-} 
+}
 
 
 /*-----------------------------Shop Airbnbgift cards------------------------------*/
@@ -827,9 +821,9 @@ background-clip: text; */
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    font-size:41px;
-    line-height:46px;
-    font-weight:500;
+    font-size: 41px;
+    line-height: 46px;
+    font-weight: 500;
     letter-spacing: -0.02em;
     flex: 1;
     width: 229.37px;
@@ -856,9 +850,9 @@ background-clip: text; */
 button {
     width: 133.2px;
     height: 48px;
-    font-size:16px;
-    line-height:20px;
-    font-weight:500;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
     text-align: center;
     background-color: #222222;
     color: white;
@@ -913,13 +907,13 @@ button {
     display: block;
     cursor: pointer;
     width: 170px;
-    height:48px;
+    height: 48px;
     border-radius: 8px;
 }
 
 .button-txt {
-    color:#080707;
-    font-weight:500;
+    color: #080707;
+    font-weight: 500;
     font-size: 17px;
     line-height: 20px;
     margin: 0px -81px 0px -85px;
@@ -935,76 +929,77 @@ button {
 
 /*-------------------- footr part Inspiration for future getaways---------------------------*/
 
-.footer-container1{
-    width:100vw;
-     height:343px;
-     
- 
- }
- .title{
-  
-     width:1263px;
-      height:34px;
-     font-size:22px;
-     font-weight:500;
-     line-height:26px;
-     margin-left: 80px;
-     margin-top: 96px;
-     
- }
- .footer-flex{
-    display: flex;
-     width:calc(100% - 160px);
-     border-bottom:1px solid black;
-     margin-left: 80px;
-     padding-bottom: 10px;
+.footer-container1 {
+    width: 100vw;
+    height: 343px;
+}
 
- }
- #unique {
-    padding: 10px;
-    font-size: 14px;
-     font-weight:400;
-     color:rgb(34,34,34);
- } 
- .footer-flex .footer-style {
-    padding: 10px;
-    font-size: 14px;
-    font-weight:400;
-    color:rgb(113,113,113);
-
- }
- .footer-flex-2{
-        display: flex;
-        width: 90%;
-       justify-content: space-between;
-      
- }
- .footer-heading{
-     padding-top: 10px;
-     display: flex;
-     flex-direction: column;
- }
- .footer-container2{
-    width:calc(100% - 160px);
+.title {
+    width: 1263px;
+    height: 34px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
     margin-left: 80px;
+    margin-top: 96px;
+}
 
- }
- .footer-heading a{
-     font-size:14px;
-     font-weight:300;
-     text-decoration: none;
-     color:#222222;
- }
- .footer-heading .clr {
-     color:rgb(113,113,113);
+.footer-flex {
+    display: flex;
+    width: calc(100% - 160px);
+    border-bottom: 1px solid black;
+    margin-left: 80px;
+    padding-bottom: 10px;
+}
 
- }
- .footer-heading #last{
-     font-weight: 500;
-     color:rgb(34,34,34);
-     text-decoration: underline;
- }
- 
+#unique {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+}
+
+.footer-flex .footer-style {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(113, 113, 113);
+}
+
+.footer-flex-2 {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.footer-heading {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container2 {
+    width: calc(100% - 160px);
+    margin-left: 80px;
+}
+
+.footer-heading a {
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #222222;
+}
+
+.footer-heading .clr {
+    color: rgb(113, 113, 113);
+}
+
+.footer-heading #last {
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+    text-decoration: underline;
+}
+
 
 /*------------------------------------footer---------------------*/
 
@@ -1029,7 +1024,7 @@ button {
 .footer .footer-content ul li a {
     height: 18px;
     line-height: 2.6;
-    color:black;
+    color: black;
     font-size: 14px;
     font-weight: 300;
     text-decoration: none;
@@ -1041,25 +1036,25 @@ button {
 }
 
 .support .h1 {
-    font-weight:600;
+    font-weight: 600;
     font-size: 14px;
     color: black;
 }
 
 .community .h2 {
-    font-weight:600;
+    font-weight: 600;
     font-size: 14px;
     color: black;
 }
 
 .hosting .h3 {
-    font-weight:600;
+    font-weight: 600;
     font-size: 14px;
     color: black;
 }
 
 .about .h4 {
-    font-weight:600;
+    font-weight: 600;
     font-size: 14px;
     color: black;
 }
@@ -1094,9 +1089,6 @@ button {
     color: hsl(0, 4%, 71%);
 }
 
-
-
-
 .underfooter-list .privacy :hover {
     text-decoration: underline;
     color: black;
@@ -1124,26 +1116,23 @@ button {
 }
 
 .underfooter-list ul li a {
-    color:rgb(34,34,34);
+    color: rgb(34, 34, 34);
     font-size: 14px;
     text-decoration: none;
 }
 
 .underfooter-list .icons {
     margin-left: 46%;
-  
 }
 
 .underfooter-list .air {
     margin-left: 5%;
-    font-weight:400;
-    font-size:14px;
-
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .underfooter-list .facebook {
     margin-left: 65px;
-
 }
 
 .underfooter-list .twitter {
